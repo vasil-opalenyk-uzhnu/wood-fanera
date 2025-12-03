@@ -8,7 +8,7 @@ export default (props) => {
         id
     } = props;
     const icon = type === "search" ? createElement(null, "img", "input-text__icon", {
-        src: "/img/icons/search.svg",
+        src: "img/icons/search.svg",
         alt: "search",
         width: "24",
         height: "24",
