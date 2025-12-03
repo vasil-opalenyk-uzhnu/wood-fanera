@@ -8,7 +8,7 @@
     --accent-color: #3C7A57;
 
     /* Images */
-    --logo: url('/img/logo-light.svg') no-repeat center center / cover;
+    --logo: url('../../../img/logo-light.svg') no-repeat center center / cover;
 
     /* Border radius */
     --border-radius: 10px;
@@ -37,5 +37,5 @@
     --accent-color: #D46A4C;
 
     /* Images */
-    --logo: url('/img/logo-dark.svg') no-repeat center center / cover;
+    --logo: url('../../../img/logo-dark.svg') no-repeat center center / cover;
 }

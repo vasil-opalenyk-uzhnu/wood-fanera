@@ -6,7 +6,7 @@
                     color-mix(in srgb, var(--bg-color) 50%, transparent),
                     color-mix(in srgb, var(--bg-color) 50%, transparent)
             ),
-            url("/img/bg.jpg") no-repeat center center / cover;
+            url("../../../img/bg.jpg") no-repeat center center / cover;
     text-align: center;
     display: flex;
     align-items: center;

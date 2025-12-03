@@ -17,12 +17,12 @@
 }
 
 .toggle-theme__image {
-    background: url("/img/icons/moon.svg") no-repeat center / cover;
+    background: url("../../../img/icons/moon.svg") no-repeat center / cover;
     width: 20px;
     height: 20px;
     transition: all var(--transition-duration) var(--transition-function);
 }
 
 :root[data-theme="dark"] .toggle-theme__image {
-    background-image: url("/img/icons/sun.svg");
+    background-image: url("../../../img/icons/sun.svg");
 }
