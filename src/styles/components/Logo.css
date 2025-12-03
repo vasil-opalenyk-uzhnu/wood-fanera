@@ -1,0 +1,21 @@
+.logo {
+    position: relative;
+    z-index: 1000;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: var(--border-radius);
+    background: var(--logo);
+    border: 2px solid transparent;
+    transition: border var(--transition-duration) var(--transition-function);
+}
+
+.logo:focus-visible,
+.logo:hover {
+    border: 2px solid var(--accent-color);
+}
+
+.logo--small {
+    width: 50px;
+    height: 50px;
+}

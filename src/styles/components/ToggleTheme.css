@@ -1,0 +1,28 @@
+.toggle-theme {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 15px;
+    bottom: 15px;
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all var(--transition-duration) var(--transition-function);
+}
+
+.toggle-theme:hover {
+    background-color: var(--secondary-color);
+}
+
+.toggle-theme__image {
+    background: url("/img/icons/moon.svg") no-repeat center / cover;
+    width: 20px;
+    height: 20px;
+    transition: all var(--transition-duration) var(--transition-function);
+}
+
+:root[data-theme="dark"] .toggle-theme__image {
+    background-image: url("/img/icons/sun.svg");
+}

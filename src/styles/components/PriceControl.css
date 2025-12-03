@@ -1,0 +1,29 @@
+.price-control {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.price-control__label {
+    display: block;
+    border: 1px solid var(--primary-color);
+    background-color: var(--bg-color);
+    border-radius: var(--border-radius);
+}
+
+.price-control__input {
+    width: 100%;
+    padding: 10px;
+}
+
+.price-control__input::-webkit-outer-spin-button,
+.price-control__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+.price-control__input[type=number] {
+    -moz-appearance: textfield;
+}

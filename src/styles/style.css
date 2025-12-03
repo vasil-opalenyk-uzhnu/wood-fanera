@@ -1,0 +1,36 @@
+/* Connect fonts */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Base styles */
+@import url("base/reset.css");
+@import url("base/variables.css");
+@import url("base/globals.css");
+
+/* Components styles */
+@import url("components/Logo.css");
+@import url("components/Navigation.css");
+@import url("components/Burger.css");
+@import url("components/Dialog.css");
+@import url("components/Button.css");
+@import url("components/Rating.css");
+@import url("components/Card.css");
+@import url("components/CardList.css");
+@import url("components/ContactsList.css");
+@import url("components/FooterNavigation.css");
+@import url("components/ToggleTheme.css");
+@import url("components/Filter.css");
+@import url("components/FormControl.css");
+@import url("components/InputText.css");
+@import url("components/CategoryList.css");
+@import url("components/PriceControl.css");
+
+/* Layouts styles */
+@import url("layouts/Header.css");
+@import url("layouts/Section.css");
+@import url("layouts/Footer.css");
+
+/* Sections styles */
+@import url("sections/Hero.css");
+@import url("sections/AboutUs.css");
+@import url("sections/Contacts.css");
+@import url("sections/Shop.css");

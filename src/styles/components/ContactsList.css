@@ -1,0 +1,31 @@
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.contacts-list__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacts-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-color);
+}
+
+.contacts-list__item:hover {
+    background-color: var(--secondary-color);
+}
+
+.contacts-list__link,
+.contacts-list__item img {
+    width: 20px;
+    height: 20px;
+}

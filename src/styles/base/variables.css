@@ -1,0 +1,41 @@
+:root {
+    /* Colors */
+    --bg-color: #F5F2EB;
+    --text-color: #2E2E2E;
+    --text-color-second: #EAE7E1;
+    --primary-color: #D6A86C;
+    --secondary-color: #8B5E3C;
+    --accent-color: #3C7A57;
+
+    /* Images */
+    --logo: url('/img/logo-light.svg') no-repeat center center / cover;
+
+    /* Border radius */
+    --border-radius: 10px;
+    --border-radius-l: 15px;
+    --border-radius-xl: 16px;
+    --border-radius-xxl: 24px;
+
+    /* Transitions */
+    --transition-duration: 0.4s;
+    --transition-duration-slow: 0.8s;
+    --transition-function: ease;
+
+    /* Fonts */
+    --font-family-base: 'Poppins', sans-serif;
+    --font-family-second: 'Great Vibes', sans-serif;
+    --font-family-third: 'Roboto', sans-serif;
+}
+
+:root[data-theme="dark"] {
+    /* Colors */
+    --bg-color: #1E1E1E;
+    --text-color: #EAE7E1;
+    --text-color-second: #F5F2EB;
+    --primary-color: #C89F6C;
+    --secondary-color: #A6784F;
+    --accent-color: #D46A4C;
+
+    /* Images */
+    --logo: url('/img/logo-dark.svg') no-repeat center center / cover;
+}

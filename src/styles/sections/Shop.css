@@ -1,0 +1,10 @@
+.shop__wrapper {
+    display: grid;
+    grid-template-columns: 390px 1fr;
+    align-items: start;
+    gap: 10px;
+
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: 1fr;
+    }
+}

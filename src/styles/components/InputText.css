@@ -1,0 +1,23 @@
+.input-text__label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.input-text__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--bg-color);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 23px 15px;
+}
+
+.input-text__control {
+    width: 100%;
+    color: var(--text-color);
+}
+
+.input-text__control::placeholder {
+    color: var(--primary-color);
+}

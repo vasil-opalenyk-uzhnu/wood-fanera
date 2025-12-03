@@ -1,0 +1,29 @@
+.button {
+    text-transform: uppercase;
+    padding: 16px 40px;
+    background: var(--primary-color);
+    color: var(--text-color-second);
+    border-radius: var(--border-radius);
+    border: 2px solid transparent;
+    transition: background var(--transition-duration) var(--transition-function);
+}
+
+.button:hover {
+    background: var(--secondary-color);
+}
+
+.button--transparent {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.button--transparent:hover {
+    background: var(--primary-color);
+    color: var(--text-color-second);
+}
+
+.button__link {
+    color: var(--text-color-second);
+    font-weight: 500;
+}

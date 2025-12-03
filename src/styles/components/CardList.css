@@ -1,0 +1,46 @@
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    --max-vw: 1440;
+    --min-vw: 1024;
+    --min: 38;
+    --max: 108;
+    gap: clamp(
+            calc(var(--min) / 16 * 1rem),
+            calc(
+                    ((var(--min) / 16) - (var(--max) - var(--min)) / (var(--max-vw) - var(--min-vw)) * (var(--min-vw) / 16)) * 1rem +
+                    ((var(--max) - var(--min)) / (var(--max-vw) - var(--min-vw))) * 100vw
+            ),
+            calc(var(--max) / 16 * 1rem)
+    );
+}
+
+.card-list:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.card-list--shop {
+    align-self: stretch;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 1440px) {
+    .card-list--shop {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .card-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-list {
+        grid-template-columns: 1fr;
+    }
+}

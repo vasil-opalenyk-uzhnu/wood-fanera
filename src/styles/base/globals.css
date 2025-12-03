@@ -1,0 +1,81 @@
+html {
+    font-family: var(--font-family-base);
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all var(--transition-duration-slow) var(--transition-function);
+    scroll-behavior: smooth;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.container-big,
+.container,
+.container-small {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-inline: 15px;
+}
+
+.container-big {
+    max-width: 1440px;
+}
+
+.container-small {
+    max-width: 940px;
+}
+
+h1, h2 {
+    font-family: var(--font-family-second);
+    line-height: 1.1;
+}
+
+h1 {
+    --max-vw: 1440;
+    --min-vw: 320;
+    --min: 48;
+    --max: 156;
+    font-size: clamp(
+            calc(var(--min) / 16 * 1rem),
+            calc(
+                    ((var(--min) / 16) - (var(--max) - var(--min)) / (var(--max-vw) - var(--min-vw)) * (var(--min-vw) / 16)) * 1rem +
+                    ((var(--max) - var(--min)) / (var(--max-vw) - var(--min-vw))) * 100vw
+            ),
+            calc(var(--max) / 16 * 1rem)
+    );
+}
+
+h2 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h4 {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+strong {
+    color: var(--primary-color);
+}
