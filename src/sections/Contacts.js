@@ -7,7 +7,7 @@ export default () => {
         createElement([
             createElement(
                 createElement(null, "img", null, {
-                    src: "/img/contacts.png" ,
+                    src: "img/contacts.png" ,
                     alt: "contact",
                     width: "400",
                     height: "500",
