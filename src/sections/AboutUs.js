@@ -15,7 +15,7 @@ export default () => {
             createElement([
                 createElement(
                     createElement(null, "img", null, {
-                        src: "/img/about/01.png",
+                        src: "img/about/01.png",
                         alt: "About Us",
                         width: "400",
                         height: "267",
@@ -26,7 +26,7 @@ export default () => {
                 ),
                 createElement(
                     createElement(null, "img", null, {
-                        src: "/img/about/02.png",
+                        src: "img/about/02.png",
                         alt: "About Us",
                         width: "400",
                         height: "267",
